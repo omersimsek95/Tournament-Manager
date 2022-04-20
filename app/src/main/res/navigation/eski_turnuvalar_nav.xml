@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eski_turnuvalar_nav"
+    app:startDestination="@id/ligFragment">
+
+    <fragment
+        android:id="@+id/ligFragment"
+        android:name="com.example.tournamentmanager_turnuvaoluturma.view.LigFragment"
+        android:label="fragment_lig"
+        tools:layout="@layout/fragment_lig" />
+    <fragment
+        android:id="@+id/elemeFragment"
+        android:name="com.example.tournamentmanager_turnuvaoluturma.view.ElemeFragment"
+        android:label="fragment_eleme"
+        tools:layout="@layout/fragment_eleme" />
+</navigation>

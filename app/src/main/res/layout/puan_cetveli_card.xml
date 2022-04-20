@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="puanCetveli"
+            type="com.example.tournamentmanager_turnuvaoluturma.model.PuanCetveli" />
+        
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtOyuncular"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoText="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@{puanCetveli.takim_ismi}"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="18dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/txtOynadigiMac"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.om)}" />
+
+        <TextView
+            android:id="@+id/txtGalibiyet"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.g)}" />
+
+        <TextView
+            android:id="@+id/txtBeraberlik"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.b)}" />
+
+        <TextView
+            android:id="@+id/txtMaglubiyet"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.m)}" />
+
+        <TextView
+            android:id="@+id/txtAttigiGol"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.ag)}" />
+
+        <TextView
+            android:id="@+id/txtYedigiGol"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.yg)}" />
+
+        <TextView
+            android:id="@+id/txtAveraj"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.av)}" />
+
+        <TextView
+            android:id="@+id/txtPuan"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{String.valueOf(puanCetveli.puan)}"
+            android:textColor="#C14B55"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puanCetveliID"
+            android:text="@{String.valueOf(puanCetveli.takim_id)}"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabloid"
+            android:text="@{String.valueOf(puanCetveli.tablo_id)}"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#353232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
+</layout>

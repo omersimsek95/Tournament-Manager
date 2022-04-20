@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_eleme.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_eleme_sonuc_ekleme.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_eski_turnuvalar.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_maclar.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_puan_cetveli.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_sonuc_ekleme.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/activity_turnuva_olustur.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/eski_turnuvalar_lig_card.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/fragment_eleme.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/fragment_lig.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/oyuncu_cardtasarim.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/omer_/AndroidStudioProjects/TournamentManagerTurnuvaOluturma/app/src/main/res/layout/puan_cetveli_card.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
