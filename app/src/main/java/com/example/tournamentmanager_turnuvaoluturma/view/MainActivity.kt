@@ -15,15 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         val btnYeni = findViewById<Button>(R.id.btnYeniTurnuva)
         val btnEski = findViewById<Button>(R.id.btnEskiTurnuvalar)
-        val crashButton = Button(this)
-        crashButton.text = "Test Crash"
-        crashButton.setOnClickListener {
-            throw RuntimeException("Test Crash") // Force a crash
-        }
 
-        addContentView(crashButton, ViewGroup.LayoutParams(
-            ViewGroup.LayoutParams.MATCH_PARENT,
-            ViewGroup.LayoutParams.WRAP_CONTENT))
+
 
         btnYeni.setOnClickListener {
 
